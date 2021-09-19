@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "./index.html"));
 });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log("server running at port : " + PORT);
 });
 
@@ -17,7 +17,8 @@ var obj = [];
 fs.readFile("./projects.json", "utf8", (err, data) => {
   if (err) console.log(err);
   else {
-    totalProjects = Array(data).length;
+    var totalProjects = JSON.parse(data);
+    totalProjects = Array(totalProjects)[0].length;
     newId = totalProjects + 1;
     obj = JSON.parse(data);
     var projectData = {
@@ -32,9 +33,9 @@ fs.readFile("./projects.json", "utf8", (err, data) => {
     };
     obj.push(projectData);
     projectJSON = JSON.stringify(obj);
-    fs.writeFile("./projects.json", projectJSON, "utf-8", (err) => {
-      if (err) console.log(err);
-      else console.log("File wrote successfully");
-    });
+    // fs.writeFile("./projects.json", projectJSON, "utf-8", (err) => {
+    //   if (err) console.log(err);
+    //   else console.log("File wrote successfully");
+    // });
   }
 });
