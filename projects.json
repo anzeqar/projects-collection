@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Projects Collection",
-    "url": "",
+    "url": "https://anzeqar.github.io/projects-collection/",
     "repo": "https://github.com/anzeqar/projects-collection",
     "date": "2021-09-19T18:30:00.000Z",
     "tech": ["Node.js", "Express"],
