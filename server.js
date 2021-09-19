@@ -1,10 +1,11 @@
 const express = require("express");
 const app = express();
 const fs = require("fs");
+const path = require("path");
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("hello");
+  res.sendFile(path.join(__dirname, "./index.html"));
 });
 
 app.listen(PORT, () => {
@@ -13,21 +14,22 @@ app.listen(PORT, () => {
 
 var obj = [];
 
-var projectData = {
-  id: 1,
-  name: "Tribute - The Great Helper",
-  url: "https://anzeqar.github.io/tribute-the-great-helper/",
-  repo: "https://github.com/anzeqar/tribute-the-great-helper",
-  date: new Date("9-20-2021"),
-  tech: ["HTML", "CSS", "JS"],
-  summary:
-    "This website is made with simple html css js and is based upon Tribute of Shaikh Abdul Qadir Jilani in which some information details are included",
-};
-
 fs.readFile("./projects.json", "utf8", (err, data) => {
   if (err) console.log(err);
   else {
+    totalProjects = Array(data).length;
+    newId = totalProjects + 1;
     obj = JSON.parse(data);
+    var projectData = {
+      id: newId,
+      name: "Projects Collection",
+      url: "null",
+      repo: "https://github.com/anzeqar/projects-collection",
+      date: new Date("9-20-2021"),
+      tech: ["Node.js", "Express"],
+      summary:
+        "This website is created to store project information in a single json file",
+    };
     obj.push(projectData);
     projectJSON = JSON.stringify(obj);
     fs.writeFile("./projects.json", projectJSON, "utf-8", (err) => {
