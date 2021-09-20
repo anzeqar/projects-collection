@@ -8,10 +8,10 @@ fetch("./projects.json")
   .then((res) => res.json())
   .then((res) => {
     projects.push(res);
+    console.log(projects);
     projects[0].forEach((e) => projectsName.push(e.name));
-    for (let i = 0; i <= projects.length; i++) {
+    for (let i = 0; i <= projects[0].length; i++) {
       const div = document.createElement("div");
-
       var dateFormat = projects[0][i].date;
       var dateog = dateFormat.slice(0, 10);
       var datesplit = dateog.split("");
