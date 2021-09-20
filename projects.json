@@ -24,6 +24,6 @@
     "repo": "#",
     "date": "2021-09-20T18:30:00.000Z",
     "tech": "Bootstrap, JS, Flask, SQLAlchemy",
-    "summary": "Users can submit their own quotes and can generate random quotes globally"
+    "summary": "Users can submit their own quotes and can generate random quotes globally."
   }
 ]
