@@ -21,16 +21,72 @@
       * {
         font-family: "Lato", sans-serif;
       }
+      .title {
+        position: relative;
+        animation: title 2s forwards;
+      }
+      .card {
+        position: relative;
+        animation: card 2s forwards;
+      }
+      .card-text {
+        position: relative;
+        animation: cardtitle 2s forwards;
+      }
+      .card-header {
+        position: relative;
+        animation: cardheader 2s forwards;
+      }
+      @keyframes title {
+        0% {
+          left: -1500px;
+          transform: rotate(1000deg);
+        }
+        100% {
+          left: 0px;
+        }
+      }
+      @keyframes card {
+        0% {
+          right: -1500px;
+          transform: rotate(50deg);
+        }
+        100% {
+          right: 0px;
+        }
+      }
+      @keyframes cardtitle {
+        0% {
+          opacity: 0;
+          left: -1500px;
+          transform: rotateY(80deg);
+        }
+        100% {
+          opacity: 1;
+          left: 0px;
+        }
+      }
+      @keyframes cardheader {
+        0% {
+          opacity: 0;
+          bottom: -1500px;
+          transform: rotateZ(580deg);
+        }
+        100% {
+          opacity: 1;
+          bottom: 0px;
+        }
+      }
     </style>
     <title>Projects Collection</title>
   </head>
-  <body class="bg-info">
+  <body style="background-color: #120">
     <div class="header">
-      <div class="header text-center text-info p-4 bg-dark">
-        <h1 class="text-center" href="#">Projects Collection</h1>
+      <div class="header text-center text-info p-4">
+        <h1 class="text-center title" href="#">Projects Collection</h1>
       </div>
     </div>
-    <div class="projects container mt-4"></div>
+    <div class="projects container mt-4 rounded-0"></div>
     <script src="script.js"></script>
   </body>
 </html>
