@@ -33,7 +33,7 @@ fetch("./projects.json")
           <div class="card-header" style="font-size:25px;color:indianred;">Project : ${
             projects[0][i].id
           }</div>
-          <div class="card-body text-start">
+<br>       <div class="card-body text-start">
             <h4 class="card-text project-name text-xl-start" style="color:gold"> ${
               projects[0][i].name
             }</h4><br>
