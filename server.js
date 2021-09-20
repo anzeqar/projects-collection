@@ -27,15 +27,15 @@ fs.readFile("./projects.json", "utf8", (err, data) => {
       url: "https://quotes-library.herokuapp.com/",
       repo: "#",
       date: new Date("9-20-2021"),
-      tech: ["Bootstrap ", "JS ", "Flask ", "SQLAlchemy "],
+      tech: "Bootstrap, JS, Flask, SQLAlchemy",
       summary:
         "This website is created to store project information in a single json file",
     };
     obj.push(projectData);
     projectJSON = JSON.stringify(obj);
-    // fs.writeFile("./projects.json", projectJSON, "utf-8", (err) => {
-    //   if (err) console.log(err);
-    //   else console.log("File wrote successfully");
-    // });
+    fs.writeFile("./projects.json", projectJSON, "utf-8", (err) => {
+      if (err) console.log(err);
+      else console.log("File wrote successfully");
+    });
   }
 });
