@@ -14,7 +14,7 @@
     "url": "https://anzeqar.github.io/projects-collection/",
     "repo": "https://github.com/anzeqar/projects-collection",
     "date": "2021-09-20T18:30:00.000Z",
-    "tech": ["Node.js", "Express"],
+    "tech": ["Bootstrap", "JS", "Node.js", "Express"],
     "summary": "This website is created to store project information in a single json file."
   }
 ]
