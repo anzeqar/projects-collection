@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Tribute - The Great Helper",
-    "url": "https://anzeqar.github.io/tribute-the-great-helper/",
+    "url": "https://anzeqar.github.io/tribute-the-great-helper",
     "repo": "https://github.com/anzeqar/tribute-the-great-helper",
     "date": "2021-09-19T18:30:00.000Z",
     "tech": "HTML, CSS, JS",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Projects Collection",
-    "url": "https://anzeqar.github.io/projects-collection/",
+    "url": "https://anzeqar.github.io/projects-collection",
     "repo": "https://github.com/anzeqar/projects-collection",
     "date": "2021-09-20T18:30:00.000Z",
     "tech": "Bootstrap, JS, Node.js, Express",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "Quotes Library",
-    "url": "https://anzeqar.github.io/quotes-library/",
+    "url": "https://anzeqar.github.io/quotes-library",
     "repo": "https://github.com/anzeqar/projects-collection",
     "date": "2021-09-21T18:30:00.000Z",
     "tech": "Bootstrap, JS",
