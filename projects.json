@@ -25,5 +25,14 @@
     "date": "2021-09-21T18:30:00.000Z",
     "tech": "Bootstrap, JS",
     "summary": "Users can generate a random quote from a collection of quotes"
+  },
+  {
+    "id": 4,
+    "name": "Netflix Clone",
+    "url": "https://anzeqar.github.io/netflix-clone",
+    "repo": "https://github.com/anzeqar/netflix-clone",
+    "date": "2021-09-20T18:30:00.000Z",
+    "tech": "HTML, CSS",
+    "summary": "A netflix.com clone website made in Desktop View"
   }
 ]

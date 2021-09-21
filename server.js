@@ -23,13 +23,12 @@ fs.readFile("./projects.json", "utf8", (err, data) => {
     obj = JSON.parse(data);
     var projectData = {
       id: newId,
-      name: "Quotes Library",
-      url: "https://quotes-library.herokuapp.com/",
-      repo: "#",
-      date: new Date("9-20-2021"),
-      tech: "Bootstrap, JS, Flask, SQLAlchemy",
-      summary:
-        "This website is created to store project information in a single json file",
+      name: "Netflix Clone",
+      url: "https://anzeqar.github.io/netflix-clone",
+      repo: "https://github.com/anzeqar/netflix-clone",
+      date: new Date("9-21-2021"),
+      tech: "HTML, CSS",
+      summary: "A netflix.com clone website made in Desktop View",
     };
     obj.push(projectData);
     projectJSON = JSON.stringify(obj);
