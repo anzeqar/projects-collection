@@ -5,8 +5,8 @@
     "url": "https://anzeqar.github.io/tribute-the-great-helper/",
     "repo": "https://github.com/anzeqar/tribute-the-great-helper",
     "date": "2021-09-19T18:30:00.000Z",
-    "tech": "HTML, CSS, JS ",
-    "summary": "This website is made with simple html css js and is based upon Tribute of Shaikh Abdul Qadir Jilani in which some information details are included."
+    "tech": "HTML, CSS, JS",
+    "summary": "A Tribute website for a Great Personality"
   },
   {
     "id": 2,
@@ -15,15 +15,15 @@
     "repo": "https://github.com/anzeqar/projects-collection",
     "date": "2021-09-20T18:30:00.000Z",
     "tech": "Bootstrap, JS, Node.js, Express",
-    "summary": "This website is created to store project information in a single json file."
+    "summary": "This website is created to store project information in a single json file"
   },
   {
     "id": 3,
     "name": "Quotes Library",
-    "url": "https://quotes-library.herokuapp.com/",
-    "repo": "#",
-    "date": "2021-09-20T18:30:00.000Z",
-    "tech": "Bootstrap, JS, Flask, SQLAlchemy",
-    "summary": "Users can submit their own quotes and can generate random quotes globally."
+    "url": "https://anzeqar.github.io/quotes-library/",
+    "repo": "https://github.com/anzeqar/projects-collection",
+    "date": "2021-09-21T18:30:00.000Z",
+    "tech": "Bootstrap, JS",
+    "summary": "Users can generate a random quote from a collection of quotes"
   }
 ]
