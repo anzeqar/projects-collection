@@ -34,5 +34,14 @@
     "date": "2021-09-21T18:30:00.000Z",
     "tech": "HTML, CSS",
     "summary": "A netflix.com clone website made in Desktop View"
+  },
+  {
+    "id": 5,
+    "name": "Shark Escape",
+    "url": "https://anzeqar.github.io/shark-escape",
+    "repo": "https://github.com/anzeqar/shark-escape",
+    "date": "2021-09-21T18:30:00.000Z",
+    "tech": "HTML, CSS, JS",
+    "summary": "A game designed for the fish to escape troops of sharks"
   }
 ]

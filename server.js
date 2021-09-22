@@ -23,12 +23,12 @@ fs.readFile("./projects.json", "utf8", (err, data) => {
     obj = JSON.parse(data);
     var projectData = {
       id: newId,
-      name: "Netflix Clone",
-      url: "https://anzeqar.github.io/netflix-clone",
-      repo: "https://github.com/anzeqar/netflix-clone",
-      date: new Date("9-21-2021"),
-      tech: "HTML, CSS",
-      summary: "A netflix.com clone website made in Desktop View",
+      name: "Shark Escape",
+      url: "https://anzeqar.github.io/shark-escape",
+      repo: "https://github.com/anzeqar/shark-escape",
+      date: new Date("9-22-2021"),
+      tech: "HTML, CSS, JS",
+      summary: "A game designed for the fish to escape troops of sharks",
     };
     obj.push(projectData);
     projectJSON = JSON.stringify(obj);
