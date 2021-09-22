@@ -26,7 +26,7 @@ fs.readFile("./projects.json", "utf8", (err, data) => {
       name: "Shark Escape",
       url: "https://anzeqar.github.io/shark-escape",
       repo: "https://github.com/anzeqar/shark-escape",
-      date: new Date("9-22-2021"),
+      date: "22-09-2021",
       tech: "HTML, CSS, JS",
       summary: "A game designed for the fish to escape troops of sharks",
     };

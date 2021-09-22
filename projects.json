@@ -4,7 +4,7 @@
     "name": "Tribute - The Great Helper",
     "url": "https://anzeqar.github.io/tribute-the-great-helper",
     "repo": "https://github.com/anzeqar/tribute-the-great-helper",
-    "date": "2021-09-19T18:30:00.000Z",
+    "date": "19-09-2021",
     "tech": "HTML, CSS, JS",
     "summary": "A Tribute website for a Great Personality"
   },
@@ -13,7 +13,7 @@
     "name": "Projects Collection",
     "url": "https://anzeqar.github.io/projects-collection",
     "repo": "https://github.com/anzeqar/projects-collection",
-    "date": "2021-09-20T18:30:00.000Z",
+    "date": "20-09-2021",
     "tech": "Bootstrap, JS, Node.js, Express",
     "summary": "This website is created to store project information in a single json file"
   },
@@ -22,7 +22,7 @@
     "name": "Quotes Library",
     "url": "https://anzeqar.github.io/quotes-library",
     "repo": "https://github.com/anzeqar/projects-collection",
-    "date": "2021-09-21T18:30:00.000Z",
+    "date": "21-09-2021",
     "tech": "Bootstrap, JS",
     "summary": "Users can generate a random quote from a collection of quotes"
   },
@@ -31,7 +31,7 @@
     "name": "Netflix Clone",
     "url": "https://anzeqar.github.io/netflix-clone",
     "repo": "https://github.com/anzeqar/netflix-clone",
-    "date": "2021-09-21T18:30:00.000Z",
+    "date": "21-09-2021",
     "tech": "HTML, CSS",
     "summary": "A netflix.com clone website made in Desktop View"
   },
@@ -40,7 +40,7 @@
     "name": "Shark Escape",
     "url": "https://anzeqar.github.io/shark-escape",
     "repo": "https://github.com/anzeqar/shark-escape",
-    "date": "2021-09-21T18:30:00.000Z",
+    "date": "22-09-2021",
     "tech": "HTML, CSS, JS",
     "summary": "A game designed for the fish to escape troops of sharks"
   }

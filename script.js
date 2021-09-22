@@ -12,21 +12,6 @@ fetch("./projects.json")
     projects[0].forEach((e) => projectsName.push(e.name));
     for (let i = 0; i <= projects[0].length; i++) {
       const div = document.createElement("div");
-      var dateFormat = projects[0][i].date;
-      var dateog = dateFormat.slice(0, 10);
-      var datesplit = dateog.split("");
-      var date =
-        datesplit[8] +
-        datesplit[9] +
-        "-" +
-        datesplit[5] +
-        datesplit[6] +
-        "-" +
-        datesplit[0] +
-        datesplit[1] +
-        datesplit[2] +
-        datesplit[3];
-
       div.innerHTML += `
       <div class="project-${i + 1} card text-center bg-dark mb-4" style="
       border-radius: 20px;padding:10px" >
@@ -55,7 +40,7 @@ fetch("./projects.json")
             }</p>
           </div>
           <div class="card-footer text-muted">
-          ${date}</div>
+          ${projects[0][i].date}</div>
         </div>
       
       `;
