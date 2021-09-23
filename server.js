@@ -23,12 +23,12 @@ fs.readFile("./projects.json", "utf8", (err, data) => {
     obj = JSON.parse(data);
     var projectData = {
       id: newId,
-      name: "Shark Escape",
-      url: "https://anzeqar.github.io/shark-escape",
-      repo: "https://github.com/anzeqar/shark-escape",
-      date: "22-09-2021",
-      tech: "HTML, CSS, JS",
-      summary: "A game designed for the fish to escape troops of sharks",
+      name: "Password Generator With Encryptor And Decryptor",
+      url: "https://anzeqar.github.io/password-generator-with-enryptor-and-decryptor",
+      repo: "https://github.com/anzeqar/password-generator-with-enryptor-and-decryptor",
+      date: "23-09-2021",
+      tech: "HTML, CSS, JS, AES Algorithm",
+      summary: "A password generator powered with an encryptor and decryptor",
     };
     obj.push(projectData);
     projectJSON = JSON.stringify(obj);
