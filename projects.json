@@ -52,5 +52,14 @@
     "date": "23-09-2021",
     "tech": "HTML, CSS, JS, AES Algorithm",
     "summary": "A password generator powered with an encryptor and decryptor"
+  },
+  {
+    "id": 7,
+    "name": "Universal Image Generator",
+    "url": "https://anzeqar.github.io/universal-image-generator",
+    "repo": "https://github.com/anzeqar/universal-image-generator",
+    "date": "25-09-2021",
+    "tech": "HTML, CSS, JS, API",
+    "summary": "Loads infinite images and allows you to download your favorite image"
   }
 ]

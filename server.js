@@ -23,12 +23,13 @@ fs.readFile("./projects.json", "utf8", (err, data) => {
     obj = JSON.parse(data);
     var projectData = {
       id: newId,
-      name: "Password Generator With Encryptor And Decryptor",
-      url: "https://anzeqar.github.io/password-generator-with-enryptor-and-decryptor",
-      repo: "https://github.com/anzeqar/password-generator-with-enryptor-and-decryptor",
-      date: "23-09-2021",
-      tech: "HTML, CSS, JS, AES Algorithm",
-      summary: "A password generator powered with an encryptor and decryptor",
+      name: "Universal Image Generator",
+      url: "https://anzeqar.github.io/universal-image-generator",
+      repo: "https://github.com/anzeqar/universal-image-generator",
+      date: "25-09-2021",
+      tech: "HTML, CSS, JS, API",
+      summary:
+        "Loads infinite images and allows you to download your favorite image",
     };
     obj.push(projectData);
     projectJSON = JSON.stringify(obj);
