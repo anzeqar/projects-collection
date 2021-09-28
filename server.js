@@ -23,13 +23,13 @@ fs.readFile("./projects.json", "utf8", (err, data) => {
     obj = JSON.parse(data);
     var projectData = {
       id: newId,
-      name: "Universal Image Generator",
-      url: "https://anzeqar.github.io/universal-image-generator",
-      repo: "https://github.com/anzeqar/universal-image-generator",
-      date: "25-09-2021",
-      tech: "HTML, CSS, JS, API",
+      name: "Thoughts Collector",
+      url: "https://anzeqar.github.io/thoughts-collector",
+      repo: "https://github.com/anzeqar/thoughts-collector",
+      date: "28-09-2021",
+      tech: "React, Hooks, Bootstrap",
       summary:
-        "Loads infinite images and allows you to download your favorite image",
+        "A React Based project in which user can use as their personal journal",
     };
     obj.push(projectData);
     projectJSON = JSON.stringify(obj);
