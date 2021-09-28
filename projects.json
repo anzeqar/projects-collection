@@ -56,8 +56,8 @@
   {
     "id": 7,
     "name": "Unlimited Image Generator",
-    "url": "https://anzeqar.github.io/universal-image-generator",
-    "repo": "https://github.com/anzeqar/universal-image-generator",
+    "url": "https://anzeqar.github.io/unlimited-image-generator",
+    "repo": "https://github.com/anzeqar/unlimited-image-generator",
     "date": "25-09-2021",
     "tech": "HTML, CSS, JS, API",
     "summary": "Loads infinite images and allows you to download your favorite image"
