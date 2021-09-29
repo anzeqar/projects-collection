@@ -28,15 +28,6 @@
   },
   {
     "id": 4,
-    "name": "Netflix Clone",
-    "url": "https://anzeqar.github.io/netflix-clone",
-    "repo": "https://github.com/anzeqar/netflix-clone",
-    "date": "21-09-2021",
-    "tech": "HTML, CSS",
-    "summary": "A netflix.com clone website made in Desktop View"
-  },
-  {
-    "id": 5,
     "name": "Shark Escape",
     "url": "https://anzeqar.github.io/shark-escape",
     "repo": "https://github.com/anzeqar/shark-escape",
@@ -45,7 +36,7 @@
     "summary": "A game designed for the fish to escape troops of sharks"
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Password Generator With Encryptor And Decryptor",
     "url": "https://anzeqar.github.io/password-generator-with-enryptor-and-decryptor",
     "repo": "https://github.com/anzeqar/password-generator-with-enryptor-and-decryptor",
@@ -54,7 +45,7 @@
     "summary": "A password generator powered with an encryptor and decryptor"
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Unlimited Image Generator",
     "url": "https://anzeqar.github.io/unlimited-image-generator",
     "repo": "https://github.com/anzeqar/unlimited-image-generator",
@@ -63,12 +54,21 @@
     "summary": "Loads infinite images and allows you to download your favorite image"
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "Thoughts Collector",
     "url": "https://anzeqar.github.io/thoughts-collector",
     "repo": "https://github.com/anzeqar/thoughts-collector",
     "date": "28-09-2021",
     "tech": "React, Hooks, Bootstrap",
     "summary": "A React Based project in which user can use as their personal journal"
+  },
+  {
+    "id": 8,
+    "name": "Code Arsenal",
+    "url": "https://anzeqar.github.io/code-arsenal",
+    "repo": "https://github.com/anzeqar/code-arsenal",
+    "date": "29-09-2021",
+    "tech": "React, Hooks, Bootstrap, Gist",
+    "summary": "All in place to get code of data structures and algorithms"
   }
 ]

@@ -23,13 +23,12 @@ fs.readFile("./projects.json", "utf8", (err, data) => {
     obj = JSON.parse(data);
     var projectData = {
       id: newId,
-      name: "Thoughts Collector",
-      url: "https://anzeqar.github.io/thoughts-collector",
-      repo: "https://github.com/anzeqar/thoughts-collector",
-      date: "28-09-2021",
-      tech: "React, Hooks, Bootstrap",
-      summary:
-        "A React Based project in which user can use as their personal journal",
+      name: "Code Arsenal",
+      url: "https://anzeqar.github.io/code-arsenal",
+      repo: "https://github.com/anzeqar/code-arsenal",
+      date: "29-09-2021",
+      tech: "React, Hooks, Bootstrap, Gist",
+      summary: "All in place to get code of data structures and algorithms",
     };
     obj.push(projectData);
     projectJSON = JSON.stringify(obj);
