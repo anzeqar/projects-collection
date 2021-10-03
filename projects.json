@@ -70,5 +70,14 @@
     "date": "29-09-2021",
     "tech": "React, Hooks, Bootstrap, Gist",
     "summary": "All in place to get code of data structures and algorithms"
+  },
+  {
+    "id": 9,
+    "name": "Contact Management System",
+    "url": "https://github.com/anzeqar/contact-management-system/releases/tag/v.1.0.0",
+    "repo": "https://github.com/anzeqar/contact-management-system",
+    "date": "03-10-2021",
+    "tech": "C",
+    "summary": "Simple Contact Manager to save contacts in .csv format"
   }
 ]
