@@ -79,5 +79,14 @@
     "date": "03-10-2021",
     "tech": "C",
     "summary": "Simple Contact Manager to save contacts in .csv format"
+  },
+  {
+    "id": 10,
+    "name": "Chat Room",
+    "url": "#",
+    "repo": "https://github.com/anzeqar/chat-room",
+    "date": "03-10-2021",
+    "tech": "Python, sockets",
+    "summary": "A Chat room for multiple users to chat at a time"
   }
 ]
