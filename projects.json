@@ -65,7 +65,7 @@
   {
     "id": 8,
     "name": "Code Arsenal",
-    "url": "https://anzeqar.github.io/code-arsenal",
+    "url": "https://codearsenal.herokuapp.com/",
     "repo": "https://github.com/anzeqar/code-arsenal",
     "date": "29-09-2021",
     "tech": "React, Hooks, Bootstrap, Gist",
