@@ -88,5 +88,14 @@
     "date": "03-10-2021",
     "tech": "Python, sockets",
     "summary": "A Chat room for multiple users to chat at a time"
+  },
+  {
+    "id": 11,
+    "name": "Employee Database API",
+    "url": "https://employeedatabaseapi.herokuapp.com",
+    "repo": "https://github.com/anzeqar/employee-database-api",
+    "date": "07-10-2021",
+    "tech": "NodeJS, Express, Handlebars",
+    "summary": "CRUD API with Front End to manage Employee Database"
   }
 ]
