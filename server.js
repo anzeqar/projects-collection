@@ -23,12 +23,12 @@ fs.readFile("./projects.json", "utf8", (err, data) => {
     obj = JSON.parse(data);
     var projectData = {
       id: newId,
-      name: "Chat Room",
-      url: "#",
-      repo: "https://github.com/anzeqar/chat-room",
-      date: "03-10-2021",
-      tech: "Python, sockets",
-      summary: "A Chat room for multiple users to chat at a time",
+      name: "MicroBlogging Platform",
+      url: "https://microbloggingplatform.herokuapp.com/",
+      repo: "https://github.com/anzeqar/microblogging-platform",
+      date: "08-10-2021",
+      tech: "NodeJS, ExpressJS, PassportJS, Google OAuth, Handlebars",
+      summary: "A platform that just everything you expect as the name says",
     };
     obj.push(projectData);
     projectJSON = JSON.stringify(obj);

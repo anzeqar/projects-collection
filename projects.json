@@ -97,5 +97,14 @@
     "date": "07-10-2021",
     "tech": "NodeJS, Express, Handlebars",
     "summary": "CRUD API with Front End to manage Employee Database"
+  },
+  {
+    "id": 12,
+    "name": "MicroBlogging Platform",
+    "url": "https://microbloggingplatform.herokuapp.com/",
+    "repo": "https://github.com/anzeqar/microblogging-platform",
+    "date": "08-10-2021",
+    "tech": "NodeJS, ExpressJS, PassportJS, Google OAuth, Handlebars",
+    "summary": "A platform that just everything you expect as the name says"
   }
 ]
