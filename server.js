@@ -23,12 +23,12 @@ fs.readFile("./projects.json", "utf8", (err, data) => {
     obj = JSON.parse(data);
     var projectData = {
       id: newId,
-      name: "MicroBlogging Platform",
-      url: "https://microbloggingplatform.herokuapp.com/",
-      repo: "https://github.com/anzeqar/microblogging-platform",
+      name: "Anzeqar's Website",
+      url: "https://anzeqar.github.io/",
+      repo: "https://github.com/anzeqar/anzeqar.github.io",
       date: "08-10-2021",
-      tech: "NodeJS, ExpressJS, PassportJS, Google OAuth, Handlebars",
-      summary: "A platform that just everything you expect as the name says",
+      tech: "Bootstrap, JS",
+      summary: "My Portfolio Website",
     };
     obj.push(projectData);
     projectJSON = JSON.stringify(obj);

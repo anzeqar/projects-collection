@@ -101,10 +101,19 @@
   {
     "id": 12,
     "name": "MicroBlogging Platform",
-    "url": "https://microbloggingplatform.herokuapp.com/",
+    "url": "https://microbloggingplatform.herokuapp.com",
     "repo": "https://github.com/anzeqar/microblogging-platform",
     "date": "08-10-2021",
     "tech": "NodeJS, ExpressJS, PassportJS, Google OAuth, Handlebars",
     "summary": "A platform that just everything you expect as the name says"
+  },
+  {
+    "id": 13,
+    "name": "Anzeqar's Website",
+    "url": "https://anzeqar.github.io",
+    "repo": "https://github.com/anzeqar/anzeqar.github.io",
+    "date": "08-10-2021",
+    "tech": "Bootstrap, JS",
+    "summary": "My Portfolio Website"
   }
 ]
