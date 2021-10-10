@@ -23,12 +23,13 @@ fs.readFile("./projects.json", "utf8", (err, data) => {
     obj = JSON.parse(data);
     var projectData = {
       id: newId,
-      name: "Anzeqar's Website",
-      url: "https://anzeqar.github.io/",
-      repo: "https://github.com/anzeqar/anzeqar.github.io",
-      date: "08-10-2021",
-      tech: "Bootstrap, JS",
-      summary: "My Portfolio Website",
+      name: "Company Finance Tracker",
+      url: "https://companyfinancetracker.herokuapp.com",
+      repo: "https://github.com/anzeqar/company-finance-tracker",
+      date: "11-10-2021",
+      tech: "MERN Stack",
+      summary:
+        "Get a Track of all Financial Transaction in One single Application",
     };
     obj.push(projectData);
     projectJSON = JSON.stringify(obj);

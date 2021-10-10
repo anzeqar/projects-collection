@@ -115,5 +115,14 @@
     "date": "08-10-2021",
     "tech": "Bootstrap, JS",
     "summary": "My Portfolio Website"
+  },
+  {
+    "id": 14,
+    "name": "Company Finance Tracker",
+    "url": "https://companyfinancetracker.herokuapp.com",
+    "repo": "https://github.com/anzeqar/company-finance-tracker",
+    "date": "11-10-2021",
+    "tech": "MERN Stack",
+    "summary": "Get a Track of all Financial Transaction in One single Application"
   }
 ]
