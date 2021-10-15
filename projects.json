@@ -21,7 +21,7 @@
     "id": 3,
     "name": "Quotes Library",
     "url": "https://anzeqar.github.io/quotes-library",
-    "repo": "https://github.com/anzeqar/projects-collection",
+    "repo": "https://github.com/anzeqar/quotes-library",
     "date": "21-09-2021",
     "tech": "Bootstrap, JS",
     "summary": "Users can generate a random quote from a collection of quotes"
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "name": "Code Arsenal",
-    "url": "https://codearsenal.herokuapp.com/",
+    "url": "https://codearsenal.herokuapp.com",
     "repo": "https://github.com/anzeqar/code-arsenal",
     "date": "29-09-2021",
     "tech": "React, Hooks, Bootstrap, Gist",
